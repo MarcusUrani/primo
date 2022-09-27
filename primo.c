@@ -9,5 +9,7 @@ int main(void)
     {
         scanf("%f", &numbers[i]);
     }
+
+    printf("%.1f\n", numbers[1]);
     return 0;
 }
