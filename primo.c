@@ -2,7 +2,8 @@
 
 int main(void)
 {
-    printf("Hello world!");
+    int n, i;
+    scanf("%f", &n);
 
     return 0;
 }
