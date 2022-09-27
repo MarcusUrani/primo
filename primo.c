@@ -2,12 +2,21 @@
 
 int main(void)
 {
-    int n, i;
+    int n, i, j;
+    char *numbers;
     scanf("%d", &n);
-    float numbers[n];
-    for (i = 0; i < n; i++)
+    numbers = calloc(n + 1, sizeof(char));
+    for (i = 2; i <= n; i++)
     {
-        scanf("%f", &numbers[i]);
+        if (numbers[i] == 0)
+        {
+            printf("%d ", i);
+            for (j = i; j < n; j += i)
+            {
+                numbers[j] = 1;
+            }
+        }
     }
+    free(numbers);
     return 0;
 }
