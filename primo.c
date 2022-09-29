@@ -1,19 +1,7 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-int verificaPrimo(int value)
-{
-    printf("%f\n", value);
-    // if (value <= 1)
-    // {
-    //     printf("\nComposto");
-    // }
-    // else if (value >= 2)
-    // {
-    //     printf("\nPrimo");
-    // }
-
-    return 0;
-}
+bool verificaPrimo(int number);
 
 int main(void)
 {
@@ -26,9 +14,24 @@ int main(void)
     {
         scanf("%f", &numbers[i]);
     }
-    for (i = n; i > 0; i--)
+    for (i = 0; i < n; i++)
     {
         verificaPrimo(numbers[i]);
     }
+    return 0;
+}
+
+bool verificaPrimo(int number)
+{
+    printf("%.0f\n", number);
+    // if (value <= 1)
+    // {
+    //     printf("\nComposto");
+    // }
+    // else if (value >= 2)
+    // {
+    //     printf("\nPrimo");
+    // }
+
     return 0;
 }
