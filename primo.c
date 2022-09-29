@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int verificaPrimo(value)
+{
+}
+
 int main(void)
 {
     int n, i;
@@ -13,6 +17,6 @@ int main(void)
     }
     for (i = n; i > 0; i--)
     {
-        }
+    }
     return 0;
 }
