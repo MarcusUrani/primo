@@ -1,15 +1,16 @@
 #include <stdio.h>
 
-int verificaPrimo(value)
+int verificaPrimo(int value)
 {
-    if (value <= 1)
-    {
-        printf("\nComposto");
-    }
-    else if (value >= 2)
-    {
-        printf("\nPrimo");
-    }
+    printf("%f\n", value);
+    // if (value <= 1)
+    // {
+    //     printf("\nComposto");
+    // }
+    // else if (value >= 2)
+    // {
+    //     printf("\nPrimo");
+    // }
 
     return 0;
 }
