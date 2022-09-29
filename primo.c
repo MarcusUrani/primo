@@ -4,7 +4,11 @@ int verificaPrimo(value)
 {
     if (value <= 1)
     {
-        printf("Primo");
+        printf("\nComposto");
+    }
+    else if (value >= 2)
+    {
+        printf("\nPrimo");
     }
 
     return 0;
@@ -23,7 +27,7 @@ int main(void)
     }
     for (i = n; i > 0; i--)
     {
-        verificaPrimo
+        verificaPrimo(numbers[i]);
     }
     return 0;
 }
