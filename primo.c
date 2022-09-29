@@ -2,6 +2,12 @@
 
 int verificaPrimo(value)
 {
+    if (value <= 1)
+    {
+        printf("Primo");
+    }
+
+    return 0;
 }
 
 int main(void)
@@ -17,6 +23,7 @@ int main(void)
     }
     for (i = n; i > 0; i--)
     {
+        verificaPrimo
     }
     return 0;
 }
