@@ -6,13 +6,13 @@ int main(void)
     scanf("%d", &n);
     float numbers[n];
     char results[n];
+    int primo = 0;
     for (i = 0; i < n; i++)
     {
         scanf("%f", &numbers[i]);
     }
     for (i = n; i > 0; i--)
     {
-        printf("%f ", numbers[i]);
-    }
+        }
     return 0;
 }
